@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Calc settings">
+		 <EditTextPreference
+		 android:title="Password"
+		 android:summary="Set your personal password. IMPORTANT: It must start and end in comma(.): .XXXX."
+		 android:key="appPassword"
+		 android:defaultValue=".1234."/>
+		
+	</PreferenceCategory>
+  	<PreferenceCategory android:title="@string/privatedatasettings">
+		 
+		 
+		 <EditTextPreference
+		 android:title="@string/dataPath"
+		 android:summary="@string/descDataPath"
+		 android:key="dataPath"
+		 android:defaultValue="/data.dbl"
+		 android:enabled="true" />
+		
+	</PreferenceCategory>
+</PreferenceScreen>

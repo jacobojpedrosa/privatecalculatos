@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/goBrowser" 
+          android:title="Browser"
+          android:enabled="false"
+          android:visible="false" />
+    <item android:id="@+id/goImport" 
+          android:title="Import File"
+          android:icon="@drawable/search" />
+    <item android:id="@+id/goSettings"
+          android:title="Settings"
+          android:icon="@drawable/settings" />
+          
+</menu>

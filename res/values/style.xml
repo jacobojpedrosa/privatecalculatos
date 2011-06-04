@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="generalnotitle">
+    	<item name="android:windowNoTitle">true</item>
+	</style>
+
+	<style name="CalcButton_memo">
+	<!--  android:layout_width="80dip" android:layout_height="50dip" -->
+        <item name="android:layout_width">80dip</item>
+        <item name="android:layout_height">55dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">30dip</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+	<style name="CalcButton_normal">
+	<!--  android:layout_width="80dip" android:layout_height="50dip" -->
+        <item name="android:layout_width">80dip</item>
+        <item name="android:layout_height">68dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">30dip</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+    
+    <style name="CalcButton_normal_small" parent="CalcButton_normal">
+	<!--  android:layout_width="80dip" android:layout_height="50dip" -->
+        <item name="android:layout_width">80dip</item>
+        <item name="android:layout_height">55dip</item>
+    </style>
+    
+    <style name="CalcButton_normal_large" parent="CalcButton_normal">
+	<!--  android:layout_width="80dip" android:layout_height="50dip" -->
+        <item name="android:layout_width">80dip</item>
+        <item name="android:layout_height">75dip</item>
+    </style>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+    <TextView android:text="0" android:id="@+id/TextView01" android:background="#000000" android:layout_height="70dip" android:layout_width="fill_parent" android:textSize="55dip" android:singleLine="true" android:gravity="right" android:textColor="#ffffff"></TextView>
+    
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="wrap_content" android:layout_height="fill_parent" android:gravity="bottom">
+<!-- <TableRow android:id="@+id/TableRow00" android:layout_marginTop="10dip" android:layout_marginBottom="10dip" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" >
+<TextView android:text="0" android:id="@+id/TextView01" android:background="#ffffff" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="40dip"></TextView>
+</TableRow>-->
+<TableRow android:id="@+id/TableRow01" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<Button android:text="mc" android:id="@+id/Button01" style="@style/CalcButton_memo"></Button>
+<Button android:text="m+" android:id="@+id/Button02" style="@style/CalcButton_memo"></Button>
+<Button android:text="m-" android:id="@+id/Button03" style="@style/CalcButton_memo"></Button>
+<Button android:text="mr" android:id="@+id/Button04" style="@style/CalcButton_memo"></Button>
+</TableRow>
+<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:text="c" android:id="@+id/Button11"  style="@style/CalcButton_normal_large"></Button>
+<Button android:text="+/-" android:id="@+id/Button12"  style="@style/CalcButton_normal_large"></Button>
+<Button android:text="/" android:id="@+id/Button13"  style="@style/CalcButton_normal_large"></Button>
+<Button android:text="x" android:id="@+id/Button14"  style="@style/CalcButton_normal_large"></Button>
+</TableRow>
+<TableRow android:id="@+id/TableRow11" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:text="1" android:id="@+id/Button21" style="@style/CalcButton_normal_large"></Button>
+<Button android:text="2" android:id="@+id/Button22" style="@style/CalcButton_normal_large"></Button>
+<Button android:text="3" android:id="@+id/Button23" style="@style/CalcButton_normal_large"></Button>
+<Button android:text="-" android:id="@+id/Button24" style="@style/CalcButton_normal_large"></Button>
+</TableRow>
+<TableRow android:id="@+id/TableRow12" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:text="4" android:id="@+id/Button31" style="@style/CalcButton_normal_large"></Button>
+<Button android:text="5" android:id="@+id/Button32" style="@style/CalcButton_normal_large"></Button>
+<Button android:text="6" android:id="@+id/Button33" style="@style/CalcButton_normal_large"></Button>
+<Button android:text="+" android:id="@+id/Button34" style="@style/CalcButton_normal_large"></Button>
+</TableRow>
+<TableRow android:id="@+id/TableRow13" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:text="7" android:id="@+id/Button41" style="@style/CalcButton_normal_large"></Button>
+<Button android:text="8" android:id="@+id/Button42" style="@style/CalcButton_normal_large"></Button>
+<Button android:text="9" android:id="@+id/Button43" style="@style/CalcButton_normal_large"></Button>
+<Button android:text="," android:id="@+id/Button52" style="@style/CalcButton_normal_large"></Button>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow14" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:text="0" android:id="@+id/Button51" android:layout_span="2" style="@style/CalcButton_normal_large"></Button>
+<Button android:text="=" android:id="@+id/Button44" android:layout_span="2" style="@style/CalcButton_normal_large"></Button>
+</TableRow>
+</TableLayout>
+</LinearLayout>

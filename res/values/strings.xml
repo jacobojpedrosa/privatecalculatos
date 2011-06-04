@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="up_one_level">..</string>
+    <string name="current_dir">.</string>
+    <string name="privatedatasettings">Private data settings</string>
+    <string name="dataProtected">Data protected</string>
+    <string name="descDataProtected">If you want your data protected, check this box and can not be accessed with any other application</string>
+    <string name="dataPath">Data Path</string>
+    <string name="descDataPath">Write here your data path</string>
+    <string name="otherSettings">Other Settings</string>
+    
+    
+</resources>
